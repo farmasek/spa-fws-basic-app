@@ -1,0 +1,33 @@
+<div style="text-align:center">Find github user:
+  <input (change)="getUser($event)">
+  <div *ngIf="user.login">
+    
+    <div class="profileHolder">
+
+      <div>
+        <h2>{{user.login}}</h2>
+        <h1>{{user.name}}</h1>
+        <p>{{user.bio}}</p>
+        <i>{{user.company}}</i>
+      </div>
+      <img width="200px"
+        height="200px"
+        src="{{user.avatar_url}}">
+
+    </div>
+
+    <nav>
+      <a routerLink="/repositories/{{user.login}}">Repositories</a>
+      <a routerLink="/following/{{user.login}}">Following</a>
+    </nav>
+  </div>
+
+  <div>
+
+    <div *ngIf="!user.login">User not found
+    </div>
+    <router-outlet ></router-outlet>
+
+  </div>
+</div>
+

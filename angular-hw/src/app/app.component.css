@@ -1,0 +1,8 @@
+.profileHolder {
+  display: inline-flex;
+  padding:1em;
+}
+
+.profileHolder div {
+  padding: 0.5em;
+}
