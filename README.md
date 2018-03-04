@@ -19,4 +19,4 @@ Simple SPA fetching and displaying information about typed user, using github RE
 
 #### App structure
 
-![App structure](app-structure.png)
+![Appstructure](https://github.com/farmasek/spa-fws-basic-app/blob/master/app-structure.PNG)
