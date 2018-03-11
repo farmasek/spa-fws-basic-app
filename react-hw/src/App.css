@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.cardsHolder {
+  width: 600px;
+  margin: 0 auto;
+}
+.card {
+  border: 1px solid;
+  margin: 10px;
+}
+
+.profileHolder {
+  display: inline-flex;
+  padding: 1em;
+}
+
+.profileHolder div {
+  padding: 0.5em;
+}
+.followingCard {
+  display: inline-flex;
+  width: 100%;
+}
+.followingCard h4 {
+  padding: 1em;
+}
+.firstLine {
+  display: inline-flex;
+}
+.firstLine i {
+  padding: 1.3em;
+}

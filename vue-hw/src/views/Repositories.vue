@@ -1,6 +1,6 @@
 <template>
  <div>
-     <h1> Following users</h1>
+     <h1> Repositories </h1>
       <div class="cardsHolder" v-for="repository in repositores" :key="repository.id">
         <div class="card">
        <div class="firstLine"> <h4>{{repository.name}}</h4> <i>{{repository.language}}</i></div>
