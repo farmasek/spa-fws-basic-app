@@ -3,7 +3,7 @@
 Goal of this project is to create overview how to handle basic situations in different SPA frameworks. Subprojects should be build on top of official CLI
 
 - Basic code style and architecture
-- Dom event handeling
+- Dom event handling
 - Route management
 - REST requests 
 - Final bundle size
