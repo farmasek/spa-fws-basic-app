@@ -45,7 +45,7 @@ export default {
       getUser(login)
         .then(response => {
           this.user = response.data;
-          this.$router.push(`/repositories/${login}`);
+          this.$router.push(`/following/${login}`);
         })
         .catch(() => {
           this.user = null;
