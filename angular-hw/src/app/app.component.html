@@ -1,7 +1,7 @@
 <div style="text-align:center">Find github user:
-  <input (change)="getUser($event)">
+  <input (keyup)="getUser($event)">
   <div *ngIf="user.login">
-    
+
     <div class="profileHolder">
 
       <div>
@@ -17,8 +17,8 @@
     </div>
 
     <nav>
+      <a routerLink="/following/{{user.login}}">Following</a> |
       <a routerLink="/repositories/{{user.login}}">Repositories</a>
-      <a routerLink="/following/{{user.login}}">Following</a>
     </nav>
   </div>
 

@@ -15,8 +15,8 @@
           :src="user.avatar_url">
       </div>
     <nav>
-      <router-link :to="`/repositories/${login}`">Repositories</router-link> |
-      <router-link :to="`/following/${login}`">Following</router-link>
+      <router-link :to="`/following/${login}`">Following</router-link> |
+      <router-link :to="`/repositories/${login}`">Repositories</router-link>
     </nav>
     <router-view/>
     
